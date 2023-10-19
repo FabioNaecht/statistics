@@ -3,9 +3,11 @@ import matplotlib.pyplot as plt
 from scipy.stats import hypergeom
 
 # Parameters
-N = 45  # Population size
-n = 6   # Number of draws
-K = 6  # Number of success states in the population
+# N = 45  # Population size
+# n = 6   # Number of draws
+# K = 6  # Number of success states in the population
+
+N, K, n = 45, 6, 6
 
 # Define the hypergeometric distribution
 rv = hypergeom(N, K, n)
