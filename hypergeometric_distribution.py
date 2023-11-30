@@ -7,7 +7,7 @@ from scipy.stats import hypergeom
 # n = 6   # Number of draws
 # K = 6  # Number of success states in the population
 
-N, K, n = 45, 6, 6
+N, K, n = 150, 12, 10
 
 # Define the hypergeometric distribution
 rv = hypergeom(N, K, n)
