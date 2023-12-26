@@ -40,6 +40,7 @@ radio = RadioButtons(ax_radio_scaling, ('linear', 'log'))
 
 def log_bool_fun(label) -> bool:
     """Adjust scaling of y-axis"""
+    # TODO RadioButtons do not adjust immediately after clicking
     log_bool = False
 
     if label == 'linear':
